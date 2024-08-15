@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.opryshok.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CanvasEntityMixin",
+    "DisplayCaseBlockMixin",
+    "ShelfBlockEntityMixin",
+    "ToolRackBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

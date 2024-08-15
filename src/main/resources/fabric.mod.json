@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "polydecorations-ledger",
+	"version": "${version}",
+	"name": "polydecorations-ledger",
+	"description": "mod that add ledger compatability to polydecorations",
+	"authors": [
+		"opryshok"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/polydecorations-ledger/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.opryshok.Polydecorationsledger"
+		],
+		"fabric-datagen": [
+			"com.opryshok.PolydecorationsledgerDataGenerator"
+		]
+	},
+	"mixins": [
+		"polydecorations-ledger.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
